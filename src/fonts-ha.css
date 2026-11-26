@@ -1,0 +1,5 @@
+/* Roboto from Home Assistant (same origin inside HA ingress). Add-ons import this; the bridge does not. */
+
+@font-face { font-family: "Roboto"; font-weight: 400; font-display: swap; src: local("Roboto"), local("Roboto-Regular"), url("/static/fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 500; font-display: swap; src: local("Roboto Medium"), local("Roboto-Medium"), url("/static/fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 700; font-display: swap; src: local("Roboto Bold"), local("Roboto-Bold"), url("/static/fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
